@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0991cf08fde26874f9a89758182479e9, type: 3}
   m_Name: Lamp
   m_EditorClassIdentifier: 
-  ItemName: old Lamp
+  ItemName: Old Lamp
   ItemImage: {fileID: 21300000, guid: d5d87c47ab7c04b4698b50dacd3004af, type: 3}
-  ItemDescription: old lamp
+  ItemDescription: Lampara antigua
   Item3DModel: {fileID: 6379443239530261760, guid: 74f199b5c5addc04b8e07622a2f6f5ab, type: 3}

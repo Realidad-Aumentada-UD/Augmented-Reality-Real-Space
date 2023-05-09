@@ -10,6 +10,7 @@ public class ItemButtonManager : MonoBehaviour
     private string itemDescription;
     private Sprite itemImage;
     private GameObject item3DModel;
+    private ARInteractionsManager interactionsManager;
 
     public string ItemName{
         set{
@@ -39,9 +40,11 @@ public class ItemButtonManager : MonoBehaviour
         var button= GetComponent<Button>();
         button.onClick.AddListener(GameManager.instance.ARPosition);
         button.onClick.AddListener(Create3DModel);
+
+        interactionsManager = FindObjectOfType<ARInteractionsManager>();
     }
 
     private void Create3DModel(){
-        Instantiate(item3DModel);
+        interactionsManager.Item3DModel = Instantiate(item3DModel);
     }
 }
