@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0991cf08fde26874f9a89758182479e9, type: 3}
   m_Name: Bonsai
   m_EditorClassIdentifier: 
-  ItemName: 
-  ItemImage: {fileID: 0}
-  ItemDescription: 
-  item3DModel: {fileID: 0}
+  ItemName: Bonsai
+  ItemImage: {fileID: 21300000, guid: a223de2f9461f8f4b8450fed9a0454f8, type: 3}
+  ItemDescription: Bonsai
+  Item3DModel: {fileID: 3372999874026356843, guid: 2a389d34d002e4a438054b3c5b3ce6b9, type: 3}

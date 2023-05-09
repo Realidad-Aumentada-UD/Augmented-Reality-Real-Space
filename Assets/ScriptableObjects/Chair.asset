@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0991cf08fde26874f9a89758182479e9, type: 3}
   m_Name: Chair
   m_EditorClassIdentifier: 
-  ItemName: 
-  ItemImage: {fileID: 0}
-  ItemDescription: 
-  item3DModel: {fileID: 0}
+  ItemName: Chair
+  ItemImage: {fileID: 21300000, guid: 92d97ac957124584c9e1515b58e31291, type: 3}
+  ItemDescription: ModerChair
+  Item3DModel: {fileID: 1153688789327663846, guid: dca3e19b549486a4cbc8bb12628cbaec, type: 3}
